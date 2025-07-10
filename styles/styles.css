@@ -11,13 +11,16 @@
 header{
    background-image: url("/assets/Hero-bg.png");
     background-size: cover;
+    border-radius: 5px;
     height: 698px;
 }
 
-body {
+ main {
     max-width: 1670px;
     margin: 0 auto;
-}
+} 
+
+
 
 
 nav{
@@ -92,4 +95,43 @@ nav h2 {
 .action-container p{
     color: #434257;
     font-size: 24px;
+}
+
+.users-container{
+   background-color: rgba(78, 71, 255, 0.1);
+   padding: 20px 260px ;
+    color: white;
+    
+    border-radius: 60px;
+
+    margin: 40px;
+
+}
+
+.users-details {
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.users-details h1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+
+.users-container h1{
+   text-align: center;
+
+   
+}
+
+.title{
+font-size: 38px;
+   color: #252432;
+}
+
+.users-details h6{
+    font-size: 20px;
+    color: #434257;
 }
