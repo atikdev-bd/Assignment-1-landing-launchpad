@@ -28,7 +28,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: large;
-   margin-left: 100px;
+    margin-left: 100px;
     margin-right: 100px;
    
 }
@@ -101,9 +101,7 @@ nav h2 {
    background-color: rgba(78, 71, 255, 0.1);
    padding: 20px 260px ;
     color: white;
-    
     border-radius: 60px;
-
     margin: 40px;
 
 }
@@ -111,7 +109,6 @@ nav h2 {
 .users-details {
     display: flex;
     justify-content: space-between;
-
     align-items: center;
 }
 
@@ -122,8 +119,6 @@ nav h2 {
 
 .users-container h1{
    text-align: center;
-
-   
 }
 
 .title{
@@ -135,3 +130,45 @@ font-size: 38px;
     font-size: 20px;
     color: #434257;
 }
+
+.user-feedback-container h1{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.user-identity{
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.user-card{
+    background-color: ivory;
+    
+    padding: 5px 30px;
+}
+
+.users-feedback{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+
+.user-identity img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.user-name-date h5, p{
+    margin-bottom: 0;
+    margin-top: 0;
+    
+}
+
+
+
