@@ -1,0 +1,48 @@
+
+ .open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}   
+
+header{
+   background-image: url("/assets/Hero-bg.png");
+    background-size: cover;
+    height: 698px;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: large;
+    margin: 45px;
+}
+
+.color-primary {
+    color: #4E47FF;
+    
+}
+
+nav h2 {
+    font-size: 36px;
+}
+
+.signup-btn{
+    border: none;
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
