@@ -15,7 +15,7 @@ header{
 }
 
 body {
-    max-width: 1440px;
+    max-width: 1670px;
     margin: 0 auto;
 }
 
@@ -25,7 +25,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-size: large;
-    margin: 45px;
+   margin-left: 100px;
+    margin-right: 100px;
+   
 }
 
 .color-primary {
@@ -46,3 +48,24 @@ nav h2 {
     cursor: pointer;
 }
 
+.hero-section {
+    text-align: center;
+    margin-top: 100px;
+   
+ 
+}
+
+.hero-section h1 {
+    font-size: 65px;
+    color: #252432;
+}
+
+.button-btn {
+    background-color: #4E47FF;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
