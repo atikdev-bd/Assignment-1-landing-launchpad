@@ -69,3 +69,27 @@ nav h2 {
     cursor: pointer;
     font-size: 20px;
 }
+
+
+.action-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 120px;
+    align-items: center;
+
+}
+
+.action-container h2{
+    font-size: 42px;
+    color: #252432
+
+}
+
+.action-container img{
+    border-radius: 40px;
+}
+
+.action-container p{
+    color: #434257;
+    font-size: 24px;
+}
