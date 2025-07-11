@@ -10,7 +10,7 @@
 
 /* header section style */
 header{
-   background-image: url("/assets/Hero-bg.png");
+   background-image: url("assets/Hero-bg.png");
     background-size: cover;
     border-radius: 5px;
     height: 698px;
