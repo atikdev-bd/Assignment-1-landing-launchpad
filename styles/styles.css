@@ -146,7 +146,7 @@ font-size: 38px;
 }
 
 .user-card{
-    background-color: ivory;
+    background-color: #F2EDED;
     
     padding: 5px 30px;
 }
@@ -168,6 +168,26 @@ font-size: 38px;
     margin-bottom: 0;
     margin-top: 0;
     
+}
+
+.template-section{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: #434257;
+        background-color: #F2EDED;
+padding: 50px;
+
+    margin: 100px;
+}
+
+.template-title button{
+    margin: 20px;
+}
+.template-section img{
+
+    border-radius: 20px;
+    
+    width: 840px;
 }
 
 
